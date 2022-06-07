@@ -91,8 +91,8 @@ h1{
     position: relative;
 }
 
-#returnalbannerlogo{
-    width:60%;
+#bannerlogo{
+    width:200px;
     position:absolute;
     top:41%;
 }
@@ -164,6 +164,43 @@ h1{
     border-bottom: 3px solid #157ED2;
 }
 
+/* Banner Two Hero */
+
+.bannerhero-box{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    height: 957px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 3px;
+    position: relative;
+}
+
+#bannerlogo-hero{
+    width:250px;
+    position:absolute;
+    top:25%;
+}
+
+.titlebanner-hero{
+    padding-top: 520px;
+}
+
+
+@media screen and (min-width: 576px){
+    #bannerlogo{
+        width:200px;
+    }
+   
+    #bannerlogo-hero{
+        width:450px;
+        top:15%;
+    }
+
+    .titlebanner-hero{
+        padding-top: 550px;
+    }
+ 
+ }
 
 @media screen and (min-width: 768px){
     .text-items-grid{
@@ -193,15 +230,26 @@ h1{
         opacity: 1;
         border-bottom: 3px solid #157ED2;
     }
-    
+
+    #bannerlogo-hero{
+        top: 15%;
+        width:500px;
+    }
+
 
   
 }
 
 @media screen and (min-width: 992px){
-    #returnalbannerlogo{
-        width:20%;
-    }
+   #bannerlogo{
+       width:200px;
+   }
+  
+   #bannerlogo-hero{
+       width:260px;
+       top:34%;
+   }
+
 
 }
     
