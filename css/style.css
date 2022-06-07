@@ -31,7 +31,7 @@ h1{
 }
 
 .btn-acquista:hover{
-    border: 2px solid white;
+    border: 2px solid black;
     outline: 2px solid #9b2f0b;
     background-color: #9b2f0b;
 }
@@ -144,15 +144,27 @@ h1{
     display:none;
 }
 
+
 .thumb2{
-    color:#929292;
     opacity: 0.5;
 }
 
-.thumb2box:hover{
+
+
+.thumb2box{
     color:black;
     cursor: pointer;
+    transition: 0.6s ease;
+
 }
+
+.thumb2box:hover .thumb2{
+    cursor: pointer;
+    opacity: 1;
+    border-bottom: 3px solid #157ED2;
+}
+
+
 @media screen and (min-width: 768px){
     .text-items-grid{
         font-family: Tahoma;
@@ -169,6 +181,20 @@ h1{
         padding-right: 30px!important;
         padding-left: 30px!important;
     }
+
+    .thumb2box:hover .thumb2{
+        cursor: pointer;
+        opacity: 1;
+        border-bottom: none;
+    }
+
+    .thumb2box:hover .text-items-grid{
+        cursor: pointer;
+        opacity: 1;
+        border-bottom: 3px solid #157ED2;
+    }
+    
+
   
 }
 
