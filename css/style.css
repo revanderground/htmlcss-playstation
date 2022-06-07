@@ -211,9 +211,15 @@ h1{
     font-family: Tahoma;
     color:#F7F7F7;
     font-size: 16px;
-    
+
 }
 
+/* Playstation 4 */
+
+.trademark{
+    font-size: 15px;
+    vertical-align: super;
+}
 
 /****************************** 
 ********MEDIA QUERIES********
@@ -271,6 +277,20 @@ h1{
         width:500px;
     }
 
+    .videogamegrid{
+        padding-left: 30px;
+        padding-right: 30px;; 
+    }
+
+    .titlegames{
+   
+        padding-left: 30px;
+        }
+    
+    .subtitlegames{
+
+        padding-left: 30px;
+    }
 
   
 }
@@ -279,27 +299,25 @@ h1{
 @media screen and (min-width: 992px){
    #bannerlogo{
        width:200px;
-   }
+    }
   
    #bannerlogo-hero{
        width:260px;
        top:34%;
-   }
+    }
 
    .videogamegrid{
-       padding-left: 30px;
-       padding-right: 30px;; 
-   }
+       padding-left: 40px;
+       padding-right: 40px;
+    }
 
-   .titlegames{
-   
-    padding-left: 30px;
-}
+   .titlegames{ 
+    padding-left: 40px;
+    }
 
-.subtitlegames{
-
-    padding-left: 30px;
-}
+   .subtitlegames{
+        padding-left: 40px;
+    }
 
 
 
