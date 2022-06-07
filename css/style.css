@@ -139,11 +139,20 @@ h1{
 
 .text-items-grid{
     font-family: Tahoma;
-    font-size: 16px;
     color:#929292;
+    font-size: 16px;
     display:none;
 }
 
+.thumb2{
+    color:#929292;
+    opacity: 0.5;
+}
+
+.thumb2box:hover{
+    color:black;
+    cursor: pointer;
+}
 @media screen and (min-width: 768px){
     .text-items-grid{
         font-family: Tahoma;
@@ -151,10 +160,16 @@ h1{
         display:block;
     }
 
-    .thumb2{
+    .thumb2box{
         width:20%;
     }
 
+    .thumb2{
+        padding-top: 30px!important;
+        padding-right: 30px!important;
+        padding-left: 30px!important;
+    }
+  
 }
 
 @media screen and (min-width: 992px){
