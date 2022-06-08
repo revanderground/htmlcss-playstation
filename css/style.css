@@ -84,7 +84,7 @@ h1{
 
 }
 
-#sony_logo{
+.sony_logo{
     height:40%;
     display: inline-block;
     margin: 0 7px;
@@ -163,6 +163,25 @@ h1{
     font-size: 12px;
     font-weight: 600;
 }
+
+/* Dropdown */
+
+.dropdown-menu {
+    position: absolute;
+    top:99px;   
+    background-color:white;
+    opacity: 0.8;
+    width:100vw;
+    z-index:2;
+    overflow:hidden;
+    
+  }
+
+.playico{
+    width: 50px;
+    color:#0070D1;
+}
+
 
 /* MAIN */
 
