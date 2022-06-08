@@ -81,6 +81,7 @@ h1{
     position: absolute;
     width: 100%;
     text-align: right;
+
 }
 
 #sony_logo{
@@ -90,22 +91,53 @@ h1{
     margin-top: 5px;
 }
 
-
-.navbarstyle{
-    top: 35px;
+.navbox-root{
+   padding-top:35px;
+    width:100%;
+    height:64px;
+    background-color: white;
 }
 
-.topiconstyle{
-    font-size: x-large;
-    color: #737373;
-    border: 1px solid #E9E9E9;
-    padding: 7px 15px;
-    border-radius: 5px;
+
+.nav-pslogo-container{
+    width: 64px;
+    height:64px;
+    color:#0070D1;
+    
+}
+
+.nav-pslogo{
+    width: 50px;
+    height: 50px;
+    color:#0070D1;
+    align-self: center;
+}
+
+.nav-item{
+    height:64px;
+    display:flex;
+    flex-direction:space-between;
+    align-items: center;
+}
+.item-text{
+    font-size:15px;
+    font-family: 'Open Sans';
+    font-weight:600;
+}
+
+.arrowdown{
+    height: 12px;
+}
+
+.nav-items-list{
+    display: flex;
+    flex-direction: row;
 }
 
 /* MAIN */
 
 /* Splash Jumbo */
+
 .jumbo-box{
     background-image: url(../img/jumbo-bg.png);
     height: 740px;
@@ -483,4 +515,3 @@ ul{
         padding-top:100px;
     }
 }
-    
