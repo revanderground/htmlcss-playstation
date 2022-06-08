@@ -98,6 +98,10 @@ h1{
     background-color: white;
 }
 
+.navbox{
+    display:flex;
+    flex-direction: row;
+}
 
 .nav-pslogo-container{
     width: 64px;
@@ -113,16 +117,21 @@ h1{
     align-self: center;
 }
 
+.navmenu{
+    display:flex;
+    flex-direction:row;
+}
+
 .nav-item{
     height:64px;
     display:flex;
-    flex-direction:space-between;
     align-items: center;
 }
 .item-text{
-    font-size:15px;
+    font-size:13px;
     font-family: 'Open Sans';
     font-weight:600;
+   
 }
 
 .arrowdown{
@@ -132,6 +141,27 @@ h1{
 .nav-items-list{
     display: flex;
     flex-direction: row;
+    
+}
+
+.navright{
+    display:flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+    align-items: center;  
+    height: 64px;
+}
+.lens{
+    width: 25px;
+    color:black;
+}
+
+.btntop{
+    background-color: black;
+    color:white;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 600;
 }
 
 /* MAIN */
