@@ -190,9 +190,13 @@ h1{
     font-size: 12px;;
 }
 
-.l-item{
-
+.iconham{
+    font-size:30px;
+    display: block;
+    color:grey;
 }
+
+
 
 /* MAIN */
 
@@ -434,9 +438,18 @@ ul{
         padding-bottom: 50px;
     }
 
-    .navbox-root{
+    .hidelg{
         display:none;
     }
+
+    .topbutton-container{
+        display: none;
+    }
+
+    .lensbox{
+        display: none;
+    }
+  
 
  }
 
@@ -464,10 +477,19 @@ ul{
         padding-bottom: 50px;
     }
 
-
-    .navbox-root{
+    .hidelg{
         display:none;
     }
+
+    .topbutton-container{
+        display: none;
+    }
+
+    .lensbox{
+        display: none;
+    }
+  
+
 
  }
 
@@ -541,9 +563,18 @@ ul{
         padding-bottom: 0px;
     }
 
-    .navbox-root{
+    .hidelg{
         display:none;
     }
+
+    .topbutton-container{
+        display: none;
+    }
+
+    .lensbox{
+        display: none;
+    }
+  
   
 }
 
@@ -585,8 +616,21 @@ ul{
         padding-top:100px;
     }
 
-    .navbox-root{
+    .dropdown{
         display:block;
+    }
+
+    .topbutton-container{
+        display: block;
+    }
+
+    .lensbox{
+        display: block;
+    }
+
+    .iconham{
+        font-size:30px;
+        display: none;
     }
   
 }
