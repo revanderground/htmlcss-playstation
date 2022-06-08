@@ -434,6 +434,10 @@ ul{
         padding-bottom: 50px;
     }
 
+    .navbox-root{
+        display:none;
+    }
+
  }
 
 /* SM */
@@ -461,6 +465,9 @@ ul{
     }
 
 
+    .navbox-root{
+        display:none;
+    }
 
  }
 
@@ -534,6 +541,9 @@ ul{
         padding-bottom: 0px;
     }
 
+    .navbox-root{
+        display:none;
+    }
   
 }
 
@@ -574,4 +584,9 @@ ul{
     .footerlistbox{
         padding-top:100px;
     }
+
+    .navbox-root{
+        display:block;
+    }
+  
 }
