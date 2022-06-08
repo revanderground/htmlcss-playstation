@@ -235,6 +235,13 @@ h1{
 /* First Grid*/
 .thumb{
     border-radius: 30px;
+    transition: .5s ease;
+}
+
+.thumb:hover{
+   
+    box-shadow: 0 25px 20px rgb(219, 228, 232);
+    transform: translate(0, -10px);
 }
 
 /* Intro product */
@@ -632,5 +639,7 @@ ul{
         font-size:30px;
         display: none;
     }
+
+   
   
 }
